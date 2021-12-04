@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                     else {
                         converter = Double.parseDouble(et_valor.getText().toString()) * 1.22;
-                        Toast.makeText(MainActivity.this, "€ " + et_valor.getText().toString() + " = " + "Kz " + converter, Toast.LENGTH_SHORT).show();
+                        Toast.makeText(MainActivity.this, "€ " + et_valor.getText().toString() + " = " + "$ " + converter, Toast.LENGTH_SHORT).show();
                         et_valor.setText("");
                     }
                 } else {
@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                     else {
                         converter = Double.parseDouble(et_valor.getText().toString()) * 6.37;
-                        Toast.makeText(MainActivity.this, "€ " + et_valor.getText().toString() + " = " + "Kz " + converter, Toast.LENGTH_SHORT).show();
+                        Toast.makeText(MainActivity.this, "€ " + et_valor.getText().toString() + " = " + "R$ " + converter, Toast.LENGTH_SHORT).show();
                         et_valor.setText("");
                     }
                 } else {
